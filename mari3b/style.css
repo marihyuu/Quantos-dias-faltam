@@ -1,0 +1,6 @@
+const dataAtual = new Date();
+let data0bjetivo = prompt ("Data final (formato ANO-MÊS-DIA, exemplo: 2824-85- 38");
+dataObjetivo = new Date(data0bjetivo+"T23:59:59");
+let diasQueFaltam = Math.floor((dataobjetivo
+dataAtual) / 86400000);
+document .querySelector ("#dias_restantes").textContent = diasQueFaltam+" dias";
